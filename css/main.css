@@ -704,11 +704,16 @@ img {
   display: inline-block;
 }
 
+.address {
+  margin-top: 20px;
+  font-style: normal;
+}
+
 .footer-contacts:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.footer-contacts:not(:last-child) .footer-contacts__link {
+.footer-contacts__link {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -716,22 +721,17 @@ img {
   transition: color var(--transition-duration) var(--timing-animation);
 }
 
-.footer-contacts:not(:last-child)__link:hover, .footer-contacts:not(:last-child)__link:focus {
+.footer-contacts__link:hover, .footer-contacts__link:focus {
   color: var(--focus-color);
 }
 
-.footer-contacts:not(:last-child) .footer-contacts__link--map {
+.footer-contacts__link--map {
   color: var(--secondary-header-color);
   transition: color var(--transition-duration) var(--timing-animation);
 }
 
-.footer-contacts:not(:last-child)__link--map:focus, .footer-contacts:not(:last-child)__link--map:hover {
+.footer-contacts__link--map:focus, .footer-contacts__link--map:hover {
   color: var(--focus-color);
-}
-
-.address {
-  margin-top: 20px;
-  font-style: normal;
 }
 
 .subscribe-form {
