@@ -629,7 +629,7 @@ img {
 
 .employee-card__position {
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 16px;
 
   font-size: 16px;
   line-height: 1.19;
@@ -642,7 +642,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 16px;
 }
 
 .social-links__item:not(:first-child) {
@@ -661,9 +660,17 @@ img {
     var(--timing-animation);
 }
 
+.social-links__link--bgc {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
 .social-links__icon {
   fill: #afb1b8;
   transition: fill var(--transition-duration) var(--timing-animation);
+}
+
+.social-links__icon--white {
+  fill: var(--secondary-header-color);
 }
 
 .social-links__link:focus .social-links__icon,
@@ -770,26 +777,6 @@ img {
   margin-bottom: 20px;
 
   color: var(--secondary-header-color);
-}
-
-.social-links__item:not(:first-child) {
-  margin-left: 10px;
-}
-
-.social-links__link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 44px;
-  height: 44px;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
-  transition: background-color var(--transition-duration)
-    var(--timing-animation);
-}
-
-.social-links__icon {
-  fill: var(--secondary-header-color);
 }
 
 .social-links__link:hover,
