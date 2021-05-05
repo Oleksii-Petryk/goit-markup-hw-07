@@ -613,7 +613,7 @@ img {
   justify-content: center;
 }
 
-.social-links .social-links__item:not(:first-child) {
+.social-links__item:not(:first-child) {
   margin-left: 10px;
 }
 
